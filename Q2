@@ -16,7 +16,7 @@ Initialization:
   Mark the start cell (0,0) as visited and enqueue it.
 
 Exploration:
-While the queue is not empty:
+While queue is not empty:
  a. Dequeue the current cell.
  b. If the current cell = (n, n), stop- goal reached.
  c. Otherwise, for each of the 4 possible moves (up, down, left, right):
