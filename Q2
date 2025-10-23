@@ -19,7 +19,7 @@ Exploration:
 While queue is not empty:
  a. Dequeue the current cell.
  b. If the current cell = (n, n), stop- goal reached.
- c. Otherwise, for each of the 4 possible moves (up, down, left, right):
+ c. Else, for each of the 4 possible moves (up, down, left, right):
   1. Compute the neighbor cell coordinates.
   2. If the neighbor cell is inside the grid and not visited:
    - Mark it as visited
